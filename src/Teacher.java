@@ -3,6 +3,6 @@ public class Teacher extends Person{
         super(name, profession);
     }
     public void Do(){
-        System.out.println(getName() + "is tech");
+        System.out.println(getName() + " is tech");
     }
 }

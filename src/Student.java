@@ -3,6 +3,6 @@ public class Student extends Person {
         super(name,profession);
     }
     public void Do(){
-        System.out.println(getName() + "is study");
+        System.out.println(getName() + " is study");
     }
 }

@@ -7,9 +7,6 @@ public abstract class Person {
         this.profession = profession;
     }
 
-    public Person() {
-        super();
-    }
 
     public String getName() {
         return name;
@@ -30,8 +27,8 @@ public abstract class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "name='" + name + '\'' +
-                ", profession='" + profession + '\'' +
+                "name='" + name +
+                ", profession='" + profession +
                 '}';
     }
 }
